@@ -124,9 +124,9 @@ def choose_and_update_item():
 
 # ใช้ filename ใน locateOnScreen()
 
-keyboard.add_hotkey('f5', lambda: start_scanning())
-keyboard.add_hotkey('f6', lambda: stop_scanning())
-keyboard.add_hotkey('f10', choose_and_update_item)
+keyboard.add_hotkey('7', lambda: start_scanning())
+keyboard.add_hotkey('8', lambda: stop_scanning())
+keyboard.add_hotkey('9', choose_and_update_item)
 
 scanning = False
 
