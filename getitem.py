@@ -121,9 +121,11 @@ def choose_and_update_item():
 
 # ... โค้ดเดิมทั้งหมดของคุณด้านบนไม่ต้องแก้ ...
 
+
 keyboard.add_hotkey('1', lambda: start_scanning())
 keyboard.add_hotkey('2', lambda: stop_scanning())
 keyboard.add_hotkey('3', choose_and_update_item)
+
 
 scanning = False
 
